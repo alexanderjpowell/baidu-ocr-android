@@ -9,7 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
 
         <Button
             android:layout_width="wrap_content"
@@ -23,6 +25,244 @@
             android:id="@+id/textView"
             android:text="Results will appear here"
             android:textSize="25sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="17dp"
+                android:textSize="25dp"
+                android:text="$"
+                android:textColor="@color/black"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progessive 1"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/progressive1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+                    android:textSize="25dp"
+                    android:text="XX.XX"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="40dp"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="17dp"
+                android:textSize="25dp"
+                android:text="$"
+                android:textColor="@color/black"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progessive 2"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/progressive2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+                    android:textSize="25dp"
+                    android:text="XX.XX"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="40dp"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="17dp"
+                android:textSize="25dp"
+                android:text="$"
+                android:textColor="@color/black"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progessive 3"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/progressive3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+                    android:textSize="25dp"
+                    android:text="XX.XX"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="40dp"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="17dp"
+                android:textSize="25dp"
+                android:text="$"
+                android:textColor="@color/black"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progessive 4"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/progressive4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+                    android:textSize="25dp"
+                    android:text="XX.XX"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="40dp"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="17dp"
+                android:textSize="25dp"
+                android:text="$"
+                android:textColor="@color/black"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progessive 5"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/progressive5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+                    android:textSize="25dp"
+                    android:text="XX.XX"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="40dp"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="17dp"
+                android:textSize="25dp"
+                android:text="$"
+                android:textColor="@color/black"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progessive 6"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/progressive6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+                    android:textSize="25dp"
+                    android:text="XX.XX"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="40dp"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/reset_button"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
