@@ -103,14 +103,24 @@ public class FrameOverlayView extends View {
         resetFrameRect(w, h);
     }
 
+    // Change crop container dimensions
     private void resetFrameRect(int w, int h) {
-        if (shapeType == 1) {
+        /*if (shapeType == 1) {
             frameRect.left = (int) (w * 0.05);
             frameRect.top = (int) (h * 0.25);
         } else {
             frameRect.left = (int) (w * 0.2);
             frameRect.top = (int) (h * 0.2);
+        }*/
+        //
+        if (shapeType == 1) {
+            frameRect.left = (int) (w * 0.005);
+            frameRect.top = (int) (h * 0.025);
+        } else {
+            frameRect.left = (int) (w * 0.02);
+            frameRect.top = (int) (h * 0.02);
         }
+        //
         frameRect.right = w - frameRect.left;
         frameRect.bottom = h - frameRect.top;
     }
